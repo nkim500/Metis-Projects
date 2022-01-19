@@ -25,11 +25,13 @@ Models
 Model Evaluation and Selection
 - The dataset was split 20% for holdout and remainder to 10-folds when cross-validating with GridSearchCV. Main metrics for evaluating model performance was precision, along with accuracy, recall, F-beta, ROC-AUC, log-loss, and execution time. 
 - Model performance at default threshold (0.50) is as follows<sup>*</sup>: 
-(model / precision / accuracy / AUC / Log-loss / execution time in teesting)
+
+(model / precision / accuracy / AUC / Log-loss / execution time in testing)
 1. kNN          / 0.77 / 0.90 / 0.927 / 0.63 / 0.199s
 2. RandomForest / 0.99 / 0.99 / 0.999 / 0.04 / 0.027s
 3. Extra-Trees  / 0.99 / 0.99 / 0.999 / 0.03 / 0.005s
 4. XGBoost      / 0.97 / 0.99 / 0.997 / 0.04 / 0.003s
+ 
 <sup>* As scripts were executed again, the evaluation metrics in the code outputs may differ from above</sup>
 - Decision-tree based models outperformed in general. Extra-Trees displayed siginificant speed advantage over RandomForest, while displaying similar level of classification quality. However, RandomForest was able to reach 100% precision at a hard-decision threshold of 0.64, keeping the decline in recall relatively minimal whereas Extra-Trees only reached 100% precision at threshold of 0.88, at which point recall dropped siginficantly. Therefore, RandomForest is the preferred classification model.
 
