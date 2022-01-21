@@ -1,5 +1,5 @@
 # Interpreting the relationship between an NBA Player's salary and its predictor variables
-Nick Kim
+by Nick Kim
 
 ## Abstract
 The goal of this project was to create a regression model which can interpret an NBA Player's salary in a mathematical way. Various feature combinations for each NBA players and the respective team(s), and appropriate derivatives of those features, were created for model training. Through multiple iterations of feature engineering, training, and validating, the final set of regression models, namely linear and ridge, lifted the R^2 from 0.53~0.57 at baseline to 0.6 at final.
