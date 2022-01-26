@@ -1,5 +1,4 @@
-# Wind forecast app for kitesurfers 
-Nick Kim
+# Wind forecast app for kitesurfing
 
 ## Abstract
 The goal of this project was to deploy a web app that captures wind and temperature data designed for kitesurfing. Underneath the hood, Python script takes in a user query via the Streamlit app and reqeuests weather forecast data from API endpoints hosted by the US government website Weather.gov. The API output for the queried location is parsed and processed to provide weather forecast data in a visual, along with the same for the neighboring locations. Furthermore, historical data for select locations in the US known for kitesurfing is presented to give guidance on seasonality of the local winds. 
