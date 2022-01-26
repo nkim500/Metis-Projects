@@ -1,5 +1,4 @@
 # Classifying fraudulent Ethereum accounts
-by Nick Kim
 
 ## Abstract
 The goal of this project was to create a binary classfication model that determines whether an Ethereum account is fraudulent or not. The trained classification model is able to take in an Ethereum account address as an input and opine on the legitimacy of the account based on the account's activity. 
