@@ -13,7 +13,7 @@ Wind speed, wind direction and dry bulb temperature forecast data is collected u
 ## Web application
 - The web application based on Streamlit and Python script will allow user to query a station code, retrievable from the displayed US weather station map. The script will retrieve forecast data from Weather.gov's API endpoints for relevant stations and visualize wind speed, wind direction and temperature for the next one week period, depending on whether the data is available. 
 - [Web app can be accessed via here](https://share.streamlit.io/nkim500/metis_projects/main/07_Engineering/streamlit_app_2.py)
-- [Web app script can be found here](https://github.com/nkim500/Metis_Projects/blob/main/07_Engineering/streamlit_app_2.py)
+- [Web app script can be found here](https://github.com/nkim500/Metis-Projects/blob/master/Engineering%20-%20wind%20forecast%20web%20application/03_streamlit_app.py)
 
 ## Tools
 - Weather.gov API and `requests` Python package for data access
