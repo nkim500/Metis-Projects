@@ -23,10 +23,5 @@ Herein are some of the projects I completed during the Data Science and Machine 
 - Used BeautifulSoup to scrape NBA player statistics in HTML format which was engineered to be fit for linear regression
 - Evaluated regression outputs and regularized using LASSO to determine statistically significant variables
 
-### Topic modeling of hip-hop lyrics using NLP
-- Modeled topics in lyrics from well-known hip-hop artists
-- Used Spacy and NLTK among others for data preparation and TruncatedSVD, NMF, LDA and CorEx for topic modeling
-- Standardized slangs and genre-specific lingos as a part of feature engineering 
-- Visualized Latent Dirichlet Allocation with pyLDAvis 
 
 
